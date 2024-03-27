@@ -1,0 +1,8 @@
+import random
+
+# 生成随机的循环次数
+loop_count = random.randint(1, 10)
+    
+# 生成随机次数的for循环
+for _ in range(loop_count):
+    print("Loop iteration")
